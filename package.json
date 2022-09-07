@@ -2,15 +2,16 @@
   "name": "vue3-typescript-vite-pixijs",
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
+    "dev": "vite --mode localhost",
+    "build": "vue-tsc --noEmit && vite build --mode production",
+    "preview": "vite preview --mode localhost"
   },
   "dependencies": {
     "pixi.js": "^6.5.2",
     "vue": "^3.2.37"
   },
   "devDependencies": {
+    "@types/node": "^18.7.15",
     "@vitejs/plugin-vue": "^3.1.0",
     "typescript": "^4.6.4",
     "vite": "^3.1.0",
