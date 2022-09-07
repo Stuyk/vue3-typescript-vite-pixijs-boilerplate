@@ -20,7 +20,7 @@ jobs:
             - name: Install NPM Packages
               run: npm install
 
-            - name: Build Documentation
+            - name: Build Website
               run: npm run build
 
             - name: Deploy
