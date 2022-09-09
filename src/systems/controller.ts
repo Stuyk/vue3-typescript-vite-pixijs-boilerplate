@@ -4,8 +4,6 @@ const keyUps: { [key: string]: Function } = {};
 let isInitialized = false;
 
 function handleKeyDown(ev: KeyboardEvent) {
-    console.log(ev);
-
     if (!keyDowns[`${ev.keyCode}`]) {
         return;
     }
