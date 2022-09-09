@@ -1,4 +1,6 @@
 import * as PIXI from 'pixi.js';
+import { Controller } from './controller';
+import { loadScenes } from './scenes';
 
 let PixiApp: PIXI.Application;
 
@@ -8,7 +10,9 @@ export const PixiEngine = {
             PixiApp.destroy();
         }
 
+        Controller.init();
         PixiApp = new PIXI.Application({ width, height, backgroundColor: 0x2980b9 });
+        loadScenes();
     },
     get() {
         if (typeof PixiApp === 'undefined') {
@@ -18,6 +22,6 @@ export const PixiEngine = {
         return PixiApp;
     },
     getCanvas() {
-        return PixiApp.view
-    }
-}
+        return PixiApp.view;
+    },
+};
