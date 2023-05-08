@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js';
-import { MainScene } from '../scenes/main';
+import { MainScene } from '../scenes';
 import { Controller } from './controller';
 
 let PixiApp: PIXI.Application;

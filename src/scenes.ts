@@ -1,7 +1,5 @@
 import * as PIXI from 'pixi.js';
-import { createPlayer } from '../systems/player';
-import { PixiEngine } from '../systems/engine';
-import { Scenes } from '../systems/scenes';
+import { PixiEngine, Scenes } from './systems';
 
 const SCENE_NAME = 'Main';
 let engine: PIXI.Application;
@@ -11,8 +9,6 @@ function SceneMain() {
     if (!engine) {
         engine = PixiEngine.get();
     }
-
-    createPlayer(engine);
 }
 
 function SceneMainUnload() {

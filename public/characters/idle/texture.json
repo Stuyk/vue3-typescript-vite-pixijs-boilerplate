@@ -1,0 +1,119 @@
+{
+    "frames": {
+        "knight iso char_idle_2.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 82
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 24,
+                "y": 0,
+                "w": 34,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        "knight iso char_idle_0.png": {
+            "frame": {
+                "x": 0,
+                "y": 82,
+                "w": 30,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 26,
+                "y": 2,
+                "w": 30,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        "knight iso char_idle_1.png": {
+            "frame": {
+                "x": 0,
+                "y": 82,
+                "w": 30,
+                "h": 80
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 26,
+                "y": 2,
+                "w": 30,
+                "h": 80
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        },
+        "knight iso char_idle_3.png": {
+            "frame": {
+                "x": 0,
+                "y": 0,
+                "w": 34,
+                "h": 82
+            },
+            "rotated": false,
+            "trimmed": true,
+            "spriteSourceSize": {
+                "x": 24,
+                "y": 0,
+                "w": 34,
+                "h": 82
+            },
+            "sourceSize": {
+                "w": 84,
+                "h": 84
+            },
+            "pivot": {
+                "x": 0.5,
+                "y": 0.5
+            }
+        }
+    },
+    "animations": {
+        "idle": [
+            "knight iso char_idle_0.png",
+            "knight iso char_idle_1.png",
+            "knight iso char_idle_2.png",
+            "knight iso char_idle_3.png"
+        ]
+    },
+    "meta": {
+        "app": "http://free-tex-packer.com",
+        "version": "0.6.7",
+        "image": "characters/idle/texture.png",
+        "format": "RGBA8888",
+        "size": {
+            "w": 34,
+            "h": 162
+        },
+        "scale": "1"
+    }
+}

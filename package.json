@@ -1,26 +1,32 @@
 {
-  "name": "vue3-typescript-vite-pixijs",
-  "version": "0.0.0",
-  "scripts": {
-    "dev": "vite --mode localhost",
-    "build": "vue-tsc --noEmit && vite build --mode production",
-    "preview": "vite preview --mode localhost"
-  },
-  "dependencies": {
-    "pixi.js": "^6.5.2",
-    "vue": "^3.2.37"
-  },
-  "devDependencies": {
-    "@types/node": "^18.7.15",
-    "@vitejs/plugin-vue": "^3.1.0",
-    "typescript": "^4.6.4",
-    "vite": "^3.1.0",
-    "vue-tsc": "^0.40.4"
-  },
-  "prettier": {
-    "tabWidth": 4,
-    "printWidth": 120,
-    "semi": true,
-    "singleQuote": true
-  }
+    "name": "catch-the-food",
+    "version": "0.0.0",
+    "scripts": {
+        "dev": "vite --mode localhost",
+        "build": "vue-tsc --noEmit && vite build --mode production",
+        "preview": "vite preview --mode localhost",
+        "test": "vitest",
+        "coverage": "vitest run --coverage",
+        "start": "vite --mode localhost"
+    },
+    "dependencies": {
+        "pixi.js": "^6.5.2",
+        "vue": "^3.2.37"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.15",
+        "@vitejs/plugin-vue": "^3.1.0",
+        "jsdom": "^22.0.0",
+        "prettier": "2.8.8",
+        "typescript": "^4.6.4",
+        "vite": "^3.1.0",
+        "vitest": "^0.30.1",
+        "vue-tsc": "^0.40.4"
+    },
+    "prettier": {
+        "tabWidth": 4,
+        "printWidth": 120,
+        "semi": true,
+        "singleQuote": true
+    }
 }

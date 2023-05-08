@@ -1,5 +1,5 @@
 import * as PIXI from 'pixi.js';
-import { PixiEngine } from './engine';
+import { PixiEngine } from '.';
 
 const SCENES: { [key: string]: { load: Function; unload: Function } } = {};
 
