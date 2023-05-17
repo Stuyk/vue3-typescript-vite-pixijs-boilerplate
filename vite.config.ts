@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import { compilerOptions, transformAssetUrls } from 'vue3-pixi'
 import vue from '@vitejs/plugin-vue'
 
 const isProduction = process.argv.includes('production');
