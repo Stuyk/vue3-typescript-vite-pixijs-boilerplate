@@ -7,8 +7,10 @@
     "preview": "vite preview --mode localhost"
   },
   "dependencies": {
-    "pixi.js": "^6.5.2",
-    "vue": "^3.2.37"
+    "@vueuse/core": "^10.1.2",
+    "pixi.js": "^7.2.4",
+    "vue": "^3.3.2",
+    "vue3-pixi": "^0.6.4"
   },
   "devDependencies": {
     "@types/node": "^18.7.15",
